@@ -30,7 +30,7 @@ const Timer = () => {
   return (
     <div className="App">
       {minits > 29 && (
-        <header className="rest">time to rest and do some exercise</header>
+        <div className="rest">time to rest and do some exercise</div>
       )}
 
       <div className="container">

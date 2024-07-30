@@ -1,42 +1,58 @@
 .App {
+  min-height: 100vh;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  background-image: url(./img/beautiful-landscape-mother-nature.jpg);
+  background-size: 100vw;
+  color: rgb(0, 0, 0);
+  position: relative;
 }
 .btn {
-  background-color: rgb(245, 242, 244);
+  background-color: transparent;
   padding: 5px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(0, 0, 0);
 }
 .container {
-  margin: 0 auto;
-  margin-top: 10%;
-  max-width: 300px;
-  background-color: rgb(213, 213, 213);
-  padding: 40px;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 33%;
+  /* margin: 0 auto; */
   border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 30%;
 }
 .rest {
-  background-color: red;
+  background-color: transparent;
 }
 .start {
-  background-color: green;
+  background-color: transparent;
   padding: 10px 30px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(0, 0, 0);
+  &:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+  }
 }
 .stop {
-  background-color: red;
+  background-color: transparent;
   padding: 10px 30px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(0, 0, 0);
+  &:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+  }
 }
 .reset {
-  background-color: yellow;
+  background-color: transparent;
   padding: 10px 30px;
   margin: 5px;
   border-radius: 5px;
-  border: none;
+  border: 1px solid rgb(0, 0, 0);
+  &:hover {
+    background-color: rgb(0, 0, 0, 0.1);
+  }
 }
 .App-logo {
   height: 40vmin;
